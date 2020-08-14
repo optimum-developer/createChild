@@ -1,0 +1,39 @@
+.btn-primary {
+  color: #000000 !important;
+  background-color: #F28D00 !important;
+  border-color: #F28D00 !important;
+}
+.py-40 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+.pb-40 {
+  padding-bottom: 2.5rem;
+}
+.pt-80 {
+  padding-top: 5rem;
+}
+.mb-32 {
+  margin-bottom: 2rem;
+}
+.shadow-box{
+  box-shadow: 0 .25rem 1rem rgba(214, 209, 203, 0.5)!important;
+}
+.add-button-width{
+  width: 100%;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (min-width: 767.98px) { 
+  .pt-160 {
+    padding-top: 10rem;
+  }
+  .add-button-width{
+    width: unset;
+  }
+}
